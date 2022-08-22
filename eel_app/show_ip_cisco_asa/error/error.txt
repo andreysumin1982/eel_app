@@ -1,0 +1,28 @@
+2022-08-22 15:40:50
+[ERROR] -> list index out of range
+2022-08-22 15:48:02
+[ERROR] -> TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios iAUK-4-1-22:22
+
+
+
+2022-08-22 15:49:26
+[ERROR] -> TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios iAUK-4-1-22:22
+
+
+2022-08-22 16:07:45
+[ERROR] -> list index out of range
+

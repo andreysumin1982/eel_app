@@ -1,9 +1,15 @@
 /*Событие на кнопку 'найти' */
 const container_btn = document.querySelector('.container_btn')
 const container_output = document.querySelector('.container_output')
+const container_input = document.querySelector('.input')
 
-let counter = 0
-container_btn.addEventListener('click', ()=> {
-    console.log(counter++)
-    container_output.innerHTML = `${counter}`
+container_btn.addEventListener('click', () => {
+    console.log(container_input.value)
+
+    let res = eel.showip(container_input.value)
 })
+/* Вызов ф-цию из python  */
+eel.expose(getData)
+function getData(data) {
+    console.log(data)
+}

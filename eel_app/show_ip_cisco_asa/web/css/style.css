@@ -38,41 +38,42 @@ body{
 .container_body{
     display: flex;
     justify-content:space-between;
-    max-width: 58vw;
+    max-width: 750px;
     margin: 0 auto;
     padding: 5px;
-    border: 1px solid  	#20B2AA;
-    border-radius: 10px;
+    /* border: 1px solid  	#20B2AA; */
+    border-radius: 5px;
     background-color:  	#20B2AA;
 }
 .container_input{
-    flex: 0 0 20vw;
+    flex: 0 0 250px;
     /* border: 1px solid silver; */
 }
 .input{
-    max-width: 20vw;
+    max-width: 250px;
     max-height: 30px;
     font-size: 20px;
-    border: 1px solid white;
-    border-radius: 5px;
+    /* border: 1px solid white; */
+    border-radius: 3px;
 }
 .input:placeholder-shown{
     text-overflow: "\01F4E7";
 }
 .container_btn{
-    flex: 0 0 4vw;
+    flex: 0 0 20px;
     /* border: 1px solid silver; */
+    padding-top: 2px;
     font-size: 20px;
-    padding: auto;   
+ 
 }
 .container_btn:hover{
     cursor: pointer;
 }
 .container_output{
-    flex: 0 0 32vw;
+    flex: 0 0 420px;
     /* padding: 5px; */
-    border: 1px solid white;
-    border-radius: 10px;
+    /* border: 1px solid white; */
+    border-radius: 5px;
     font-size: 20px;
     background-color: white;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
