@@ -26,3 +26,62 @@ Device settings: cisco_ios iAUK-4-1-22:22
 2022-08-22 16:07:45
 [ERROR] -> list index out of range
 
+2022-08-23 14:01:25
+[ERROR] -> list index out of range
+
+2022-08-23 14:19:11
+[ERROR] -> list index out of range
+
+2022-08-23 14:21:06
+[ERROR] -> list index out of range
+
+2022-08-23 14:22:49
+[ERROR] -> list index out of range
+
+2022-08-23 14:22:49
+[ERROR] -> local variable 'dataset' referenced before assignment
+
+2022-08-23 14:24:17
+[ERROR] -> list index out of range
+
+2022-08-23 14:25:22
+[ERROR] -> list index out of range
+
+2022-08-23 14:31:55
+[ERROR] -> list index out of range
+
+2022-08-23 14:33:25
+[ERROR] -> list index out of range
+
+2022-08-23 14:41:15
+[ERROR] -> 
+A paramiko SSHException occurred during connection creation:
+
+Incompatible version (1.5 instead of 2.0)
+
+
+
+2022-08-23 14:45:44
+[ERROR] -> 
+A paramiko SSHException occurred during connection creation:
+
+Incompatible version (1.5 instead of 2.0)
+
+
+
+2022-08-23 14:59:53
+[ERROR] -> 
+A paramiko SSHException occurred during connection creation:
+
+Incompatible version (1.5 instead of 2.0)
+
+
+
+2022-08-23 15:44:59
+[ERROR] -> 
+A paramiko SSHException occurred during connection creation:
+
+Incompatible version (1.5 instead of 2.0)
+
+
+

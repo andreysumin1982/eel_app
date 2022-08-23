@@ -17,7 +17,7 @@ class Cisco:
     def setCommands(self, commands: list) -> list:
         # Параметры подключения
         cisco = {
-            'device_type': 'cisco_ios',
+            'device_type': 'cisco_asa',
             'host': f'{self.ip}',
             'user': f'{self.username}',
             'password': f'{self.password}',

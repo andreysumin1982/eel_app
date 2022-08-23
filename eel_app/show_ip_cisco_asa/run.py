@@ -11,7 +11,7 @@ error_file = '/home/asumin/web-app/eel_app/show_ip_cisco_asa/error/error.txt'
 @eel.expose
 def showip(mac: str):
     try:
-        sw = Cisco('iAUK-4-1-2', 'admin', '2xm9sD')
+        sw = Cisco('ip', '***', '***')
         command = [f"sh arp | i {mac}"]
         dataset = sw.setCommands(command)
         sw.saveFile(dataset, save_file)
