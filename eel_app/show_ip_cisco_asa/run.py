@@ -11,24 +11,28 @@ error_file = '/home/asumin/web-app/eel_app/show_ip_cisco_asa/error/error.txt'
 @eel.expose
 def showip(mac: str):
     try:
-        sw = Cisco('ip', '***', '***')
+        sw = Cisco('192.168.220.254', '***', '***')
         command = [f"sh arp | i {mac}"]
         dataset = sw.setCommands(command)
         sw.saveFile(dataset, save_file)
         return pricessing(save_file, mac)
-    except Exception as error:
-        print(f"[ERROR] -> {error}")
+    except Exception as ERROR:
+        print(f"[ERROR] -> {ERROR}")
+        dateTime = datetime.now().replace(microsecond=0)  # Убираем микросекунды
+        with open(error_file, 'a') as file_error:
+            file_error.write(f"{dateTime}\n[ERROR] -> {ERROR}\n\n")
 #
 def pricessing(save_file, mac: str) -> list:
     try:
         with open(save_file) as file:
-            result = list(map(lambda x : [x.split()[1], x.split()[-3], x.split()[-1]], file.readlines()))
-            print(f"[OK] -> {result}"); return eel.getData(result)
+            dataset = list(map(lambda x : [x.split()[1], x.split()[-3], x.split()[-1]], file.readlines()))
+            print(f"[OK] -> {dataset}"); return eel.getData(dataset) # Передаем аргументы и вызываем ф-цию из JS
     except Exception as ERROR:
-        print(f"[INFO] -> Ничего нет по адресу {mac}")
+        print(f"[INFO] -> Ничего нет по адресу '{mac}'")
         dateTime = datetime.now().replace(microsecond=0)  # Убираем микросекунды
         with open(error_file, 'a') as file_error:
             file_error.write(f"{dateTime}\n[ERROR] -> {ERROR}\n\n")
+        eel.getData([], mac)  # Передаем аргументы и вызываем ф-цию из JS
 
 #
 eel.start('index.html', mode="chrome", size=(1000, 320))
