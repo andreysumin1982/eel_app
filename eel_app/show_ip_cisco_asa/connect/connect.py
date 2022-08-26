@@ -1,5 +1,5 @@
 #
-from netmiko import (ConnectHandler,
+from netmiko import (ConnectHandler, SSHDetect,
                      NetmikoTimeoutException,
                      NetmikoAuthenticationException)
 import time
@@ -7,8 +7,9 @@ from datetime import datetime
 #
 error_file = '/home/asumin/web-app/eel_app/show_ip_cisco_asa/error/error.txt'
 #
-class Cisco:
-    def __init__(self, ip, username, password = None, secret = None):
+class Device:
+    def __init__(self, device, ip, username, password = None, secret = None):
+        self.device = device
         self.ip = ip
         self.username = username
         self.password = password or None
@@ -16,20 +17,24 @@ class Cisco:
     #
     def setCommands(self, commands: list) -> list:
         # Параметры подключения
-        cisco = {
-            'device_type': 'cisco_asa',
+        device_type = {'linux': 'linux', 'cisco': 'cisco_ios', 'cisco_asa': 'cisco_asa'}
+        device_param = {
+            'device_type': None,
             'host': f'{self.ip}',
             'user': f'{self.username}',
             'password': f'{self.password}',
             'secret': f'{self.secret}'
             }
-        # Подключаемся к коммутатору
+        # Подключаемся к Устройству
         try:
-            with ConnectHandler(device_type=cisco['device_type'],
-                                ip=cisco['host'],
-                                username=cisco['user'],
-                                password=cisco['password'],
-                                secret=cisco['secret']) as ssh:
+            if self.device in device_type:
+                device_param['device_type'] = device_type[self.device]
+            #
+            with ConnectHandler(device_type=device_param['device_type'],
+                                ip=device_param['host'],
+                                username=device_param['user'],
+                                password=device_param['password'],
+                                secret=device_param['secret']) as ssh:
                 time.sleep(1)  # Пауза
                 dataset = []
                 # Выполняем
@@ -46,10 +51,11 @@ class Cisco:
         exit(0)
     #
     def saveFile(self, dataset, save_file: str):
+        print(f"[dataset] -> {dataset}")
         with open(save_file, 'w') as file:
             for item in dataset:
                 file.write(''.join(item) + '\n')
-
+#
 
 #
 if __name__ == '__main__':
