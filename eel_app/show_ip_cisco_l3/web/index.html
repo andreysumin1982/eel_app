@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Смотрим ip-адрес</title>
+        <!-- css -->
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="/eel.js"></script>
+    </head>
+    <body>
+        <div class="content">
+            <!-- title -->
+            <div class="title">Смотрим ip-адрес на Cisco L3</div>
+            <!-- containers -->
+            <div class="containers">
+                <div class="container_title">
+                    Cisco L3
+                    <select class="select_list">
+                        <option class="opt select" value="0">
+                            Выберите коммутатор
+                        </option>
+                    </select>
+                </div>
+                <div class="container_body">
+                    <div class="container_input">
+                        <input
+                            type="input"
+                            class="input"
+                            placeholder="mac-адрес"
+                            title="Введите mac-адрес полностью, или последние 4 символа."
+                        />
+                    </div>
+                    <div class="container_btn">Найти</div>
+                    <div class="container_output"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- js  -->
+        <script src="js/func.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
