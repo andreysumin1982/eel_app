@@ -71,16 +71,16 @@ container_btn.addEventListener('click', () => {
 /* ! Подготавливаем ф-цию getData(data) для вызова из python  */
 eel.expose(getDataJs)
 function getDataJs(data, mac) {
-    console.log(data.length)
+    //console.log(data.length)
     if (data.length != 0) {
-        console.log(data)
-        container_output.innerHTML = `${data} <br> `
-//        data.forEach(element => {
-//            // console.log(element)
-//            //console.log(`${element[0]} ${element[1]} ${element[2]}`)
-//            console.log(`${element}`)
-//            container_output.innerHTML += `${element} <br> `
-//        });
+        result = data.split('\n').filter(Boolean)
+        //container_output.innerHTML = `${data} <br> `
+        result.forEach(element => {
+            elem = element.split(' ').filter(Boolean)
+            //console.log(elem[1], elem[3], elem[5])
+            container_output.innerHTML += `${elem[1]}  ${elem[3]}  ${elem[5]} <br>`
+        });
+
         container_btn.innerHTML = 'Найти'
     }
     else {

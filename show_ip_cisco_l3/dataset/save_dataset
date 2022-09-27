@@ -1,113 +1,120 @@
-[2022-09-26 16:23:48]Internet  192.168.135.148       119   0057.d27e.d041  ARPA   Vlan435
-Internet  192.168.135.191        34   0057.d27e.a941  ARPA   Vlan435
-Internet  192.168.135.193       145   c08c.6027.4741  ARPA   Vlan435
-Internet  192.168.135.243        53   04c5.a473.4141  ARPA   Vlan435
+[2022-09-27 13:45:35]
+% Incomplete command.
 
 
-[2022-09-26 16:24:44]
+
+[2022-09-27 13:46:10]
+% Incomplete command.
+
+
+
+[2022-09-27 13:50:29]
 Internet  192.168.135.146         -   00fe.c86a.4ec1  ARPA   Vlan435
-Internet  192.168.135.148       120   0057.d27e.d041  ARPA   Vlan435
-Internet  192.168.135.191        35   0057.d27e.a941  ARPA   Vlan435
-Internet  192.168.135.193       146   c08c.6027.4741  ARPA   Vlan435
-Internet  192.168.135.196       117   0050.568c.55d6  ARPA   Vlan435
-Internet  192.168.135.242        39   6400.f195.fec1  ARPA   Vlan435
-Internet  192.168.135.243        53   04c5.a473.4141  ARPA   Vlan435
+Internet  192.168.135.148       181   0057.d27e.d041  ARPA   Vlan435
+Internet  192.168.135.191        74   0057.d27e.a941  ARPA   Vlan435
+Internet  192.168.135.193       197   c08c.6027.4741  ARPA   Vlan435
+Internet  192.168.135.196       135   0050.568c.55d6  ARPA   Vlan435
+Internet  192.168.135.242       129   6400.f195.fec1  ARPA   Vlan435
+Internet  192.168.135.243       144   04c5.a473.4141  ARPA   Vlan435
 Internet  192.168.135.254         0   3c08.f6a9.28c6  ARPA   Vlan435
 
 
-[2022-09-26 16:25:38]
-Internet  192.168.135.254         0   3c08.f6a9.28c6  ARPA   Vlan435
-
-
-[2022-09-26 16:31:35]
-Internet  192.168.135.148       127   0057.d27e.d041  ARPA   Vlan435
-Internet  192.168.135.191        42   0057.d27e.a941  ARPA   Vlan435
-Internet  192.168.135.193       153   c08c.6027.4741  ARPA   Vlan435
-Internet  192.168.135.243        60   04c5.a473.4141  ARPA   Vlan435
-
-
-[2022-09-26 16:32:13]
-Internet  192.168.135.148       127   0057.d27e.d041  ARPA   Vlan435
-Internet  192.168.135.191        42   0057.d27e.a941  ARPA   Vlan435
-Internet  192.168.135.193       154   c08c.6027.4741  ARPA   Vlan435
-Internet  192.168.135.243        61   04c5.a473.4141  ARPA   Vlan435
-
-
-[2022-09-26 16:33:34]
-Internet  192.168.135.148       129   0057.d27e.d041  ARPA   Vlan435
-Internet  192.168.135.191        44   0057.d27e.a941  ARPA   Vlan435
-Internet  192.168.135.193       155   c08c.6027.4741  ARPA   Vlan435
-Internet  192.168.135.243        62   04c5.a473.4141  ARPA   Vlan435
-
-
-[2022-09-26 16:37:53]
-Internet  192.168.135.148       133   0057.d27e.d041  ARPA   Vlan435
-Internet  192.168.135.191        48   0057.d27e.a941  ARPA   Vlan435
-Internet  192.168.135.193       159   c08c.6027.4741  ARPA   Vlan435
-Internet  192.168.135.243        67   04c5.a473.4141  ARPA   Vlan435
-
-
-[2022-09-26 16:38:45]
+[2022-09-27 14:32:27]
 Internet  192.168.135.146         -   00fe.c86a.4ec1  ARPA   Vlan435
-Internet  192.168.135.148       134   0057.d27e.d041  ARPA   Vlan435
-Internet  192.168.135.191        49   0057.d27e.a941  ARPA   Vlan435
-Internet  192.168.135.193       160   c08c.6027.4741  ARPA   Vlan435
-Internet  192.168.135.196       131   0050.568c.55d6  ARPA   Vlan435
-Internet  192.168.135.242        53   6400.f195.fec1  ARPA   Vlan435
-Internet  192.168.135.243        67   04c5.a473.4141  ARPA   Vlan435
+Internet  192.168.135.148       223   0057.d27e.d041  ARPA   Vlan435
+Internet  192.168.135.191       116   0057.d27e.a941  ARPA   Vlan435
+Internet  192.168.135.193       239   c08c.6027.4741  ARPA   Vlan435
+Internet  192.168.135.196       177   0050.568c.55d6  ARPA   Vlan435
+Internet  192.168.135.242       171   6400.f195.fec1  ARPA   Vlan435
+Internet  192.168.135.243       186   04c5.a473.4141  ARPA   Vlan435
 Internet  192.168.135.254         0   3c08.f6a9.28c6  ARPA   Vlan435
 
 
-[2022-09-26 16:39:37]
-
-
-
-[2022-09-26 16:40:11]
-
-
-
-[2022-09-26 16:44:21]
-Internet  192.168.135.148       139   0057.d27e.d041  ARPA   Vlan435
-Internet  192.168.135.191        55   0057.d27e.a941  ARPA   Vlan435
-Internet  192.168.135.193       166   c08c.6027.4741  ARPA   Vlan435
-Internet  192.168.135.243        73   04c5.a473.4141  ARPA   Vlan435
-
-
-[2022-09-26 16:44:42]
+[2022-09-27 14:42:46]
 Internet  192.168.135.146         -   00fe.c86a.4ec1  ARPA   Vlan435
-Internet  192.168.135.148       140   0057.d27e.d041  ARPA   Vlan435
-Internet  192.168.135.191        55   0057.d27e.a941  ARPA   Vlan435
-Internet  192.168.135.193       166   c08c.6027.4741  ARPA   Vlan435
-Internet  192.168.135.196       136   0050.568c.55d6  ARPA   Vlan435
-Internet  192.168.135.242        59   6400.f195.fec1  ARPA   Vlan435
-Internet  192.168.135.243        73   04c5.a473.4141  ARPA   Vlan435
+Internet  192.168.135.148       233   0057.d27e.d041  ARPA   Vlan435
+Internet  192.168.135.191       126   0057.d27e.a941  ARPA   Vlan435
+Internet  192.168.135.193        10   c08c.6027.4741  ARPA   Vlan435
+Internet  192.168.135.196       187   0050.568c.55d6  ARPA   Vlan435
+Internet  192.168.135.242       182   6400.f195.fec1  ARPA   Vlan435
+Internet  192.168.135.243       197   04c5.a473.4141  ARPA   Vlan435
 Internet  192.168.135.254         0   3c08.f6a9.28c6  ARPA   Vlan435
 
 
-[2022-09-26 16:44:55]
+[2022-09-27 14:43:15]
+Internet  192.168.135.146         -   00fe.c86a.4ec1  ARPA   Vlan435
+Internet  192.168.135.148       233   0057.d27e.d041  ARPA   Vlan435
+Internet  192.168.135.191       127   0057.d27e.a941  ARPA   Vlan435
+Internet  192.168.135.193        10   c08c.6027.4741  ARPA   Vlan435
+Internet  192.168.135.196       187   0050.568c.55d6  ARPA   Vlan435
+Internet  192.168.135.242       182   6400.f195.fec1  ARPA   Vlan435
+Internet  192.168.135.243       197   04c5.a473.4141  ARPA   Vlan435
+Internet  192.168.135.254         0   3c08.f6a9.28c6  ARPA   Vlan435
 
 
-
-[2022-09-26 16:45:53]
-
-
-
-[2022-09-26 16:47:27]
-
-
-
-[2022-09-26 16:48:30]
-
+[2022-09-27 14:44:00]
+Internet  192.168.135.146         -   00fe.c86a.4ec1  ARPA   Vlan435
+Internet  192.168.135.148       234   0057.d27e.d041  ARPA   Vlan435
+Internet  192.168.135.191       128   0057.d27e.a941  ARPA   Vlan435
+Internet  192.168.135.193        11   c08c.6027.4741  ARPA   Vlan435
+Internet  192.168.135.196       188   0050.568c.55d6  ARPA   Vlan435
+Internet  192.168.135.242       183   6400.f195.fec1  ARPA   Vlan435
+Internet  192.168.135.243       198   04c5.a473.4141  ARPA   Vlan435
+Internet  192.168.135.254         0   3c08.f6a9.28c6  ARPA   Vlan435
 
 
-[2022-09-26 16:49:15]
+[2022-09-27 14:45:18]
+Internet  192.168.135.146         -   00fe.c86a.4ec1  ARPA   Vlan435
+Internet  192.168.135.148       235   0057.d27e.d041  ARPA   Vlan435
+Internet  192.168.135.191       129   0057.d27e.a941  ARPA   Vlan435
+Internet  192.168.135.193        12   c08c.6027.4741  ARPA   Vlan435
+Internet  192.168.135.196       189   0050.568c.55d6  ARPA   Vlan435
+Internet  192.168.135.242       184   6400.f195.fec1  ARPA   Vlan435
+Internet  192.168.135.243       199   04c5.a473.4141  ARPA   Vlan435
+Internet  192.168.135.254         0   3c08.f6a9.28c6  ARPA   Vlan435
 
 
+[2022-09-27 14:45:55]
+Internet  192.168.135.148       236   0057.d27e.d041  ARPA   Vlan435
+Internet  192.168.135.191       129   0057.d27e.a941  ARPA   Vlan435
+Internet  192.168.135.193        13   c08c.6027.4741  ARPA   Vlan435
+Internet  192.168.135.243       200   04c5.a473.4141  ARPA   Vlan435
 
-[2022-09-26 16:50:46]
-Internet  192.168.135.148       146   0057.d27e.d041  ARPA   Vlan435
-Internet  192.168.135.191        61   0057.d27e.a941  ARPA   Vlan435
-Internet  192.168.135.193       172   c08c.6027.4741  ARPA   Vlan435
-Internet  192.168.135.243        79   04c5.a473.4141  ARPA   Vlan435
+
+[2022-09-27 14:46:49]
+Internet  192.168.135.146         -   00fe.c86a.4ec1  ARPA   Vlan435
+Internet  192.168.135.148       237   0057.d27e.d041  ARPA   Vlan435
+Internet  192.168.135.191       130   0057.d27e.a941  ARPA   Vlan435
+Internet  192.168.135.193        14   c08c.6027.4741  ARPA   Vlan435
+Internet  192.168.135.196       191   0050.568c.55d6  ARPA   Vlan435
+Internet  192.168.135.242       186   6400.f195.fec1  ARPA   Vlan435
+Internet  192.168.135.243       201   04c5.a473.4141  ARPA   Vlan435
+Internet  192.168.135.254         0   3c08.f6a9.28c6  ARPA   Vlan435
+
+
+[2022-09-27 14:48:11]
+Internet  192.168.135.146         -   00fe.c86a.4ec1  ARPA   Vlan435
+Internet  192.168.135.148       238   0057.d27e.d041  ARPA   Vlan435
+Internet  192.168.135.191       132   0057.d27e.a941  ARPA   Vlan435
+Internet  192.168.135.193        15   c08c.6027.4741  ARPA   Vlan435
+Internet  192.168.135.196       192   0050.568c.55d6  ARPA   Vlan435
+Internet  192.168.135.242       187   6400.f195.fec1  ARPA   Vlan435
+Internet  192.168.135.243       202   04c5.a473.4141  ARPA   Vlan435
+Internet  192.168.135.254         0   3c08.f6a9.28c6  ARPA   Vlan435
+
+
+[2022-09-27 14:48:36]
+Internet  192.168.135.146         -   00fe.c86a.4ec1  ARPA   Vlan435
+
+
+[2022-09-27 14:51:53]
+Internet  192.168.135.146         -   00fe.c86a.4ec1  ARPA   Vlan435
+Internet  192.168.135.148       242   0057.d27e.d041  ARPA   Vlan435
+Internet  192.168.135.191       135   0057.d27e.a941  ARPA   Vlan435
+Internet  192.168.135.193        19   c08c.6027.4741  ARPA   Vlan435
+Internet  192.168.135.196       196   0050.568c.55d6  ARPA   Vlan435
+Internet  192.168.135.242       191   6400.f195.fec1  ARPA   Vlan435
+Internet  192.168.135.243       206   04c5.a473.4141  ARPA   Vlan435
+Internet  192.168.135.254         0   3c08.f6a9.28c6  ARPA   Vlan435
 
 
