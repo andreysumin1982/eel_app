@@ -3,6 +3,8 @@ from datetime import datetime
 import eel
 # Импортируем модуль connect
 from show_ip_cisco_l3.connect_to_device import connect
+# Импорт модуля connect_db для работы с бд Postgres
+from connect_db.connect_db import Connect_db
 # Импортируем декоратор
 from show_ip_cisco_l3.decorators.save_dataset import save_dataset
 #
@@ -34,12 +36,20 @@ def getDataPy(ip_device, mac):
                 file.write(f"[{dt}]\n{dataset}\n\n")
             print(f"[ok] -> Сохранено в {path}")
             # Передаем аргументы и вызываем ф-цию из JS
-            return eel.getDataJs(dataset.strip(), mac)
+            return eel.getDataJs(dataset.strip(), mac), saveDataDB(dataset.strip())
     else:
         # Передаем аргументы и вызываем ф-цию из JS
         return eel.getDataJs('', '???')
+#
+def saveDataDB(*args):
+    db = Connect_db('localhost', 'mac_db', 'test', 'test')
+    [[print(k.strip().split()) for k in item.split('\n')] for item in args]
+    #print(result)
+
+    #db.executeRequest(f"insert into summary (ip, mac, vlan) values ('{result[1]}', '{result[3]}', '{result[5]}');")
 #
 eel.start('index.html', mode="chrome", size=(1000, 320))
 #
 if __name__ == '__main__':
     pass
+    #saveDataDB()
